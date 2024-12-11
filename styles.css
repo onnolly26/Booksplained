@@ -1,0 +1,188 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+
+/* Add a background colour when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+ background-color: #555555;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 6px;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.8;
+}
+
+button:hover {
+ opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+ padding: 14px 20px;
+ background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+ float: center;
+ width: 50%;
+}
+
+/* Add padding to container elements */
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: #474e5d;
+ padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+ background-color: #fefefe;
+ margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+ border: 1px solid #888;
+ width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+ border: 1px solid #f1f1f1;
+ margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+ position: absolute;
+ right: 35px;
+ top: 15px;
+ font-size: 40px;
+ font-weight: bold;
+ color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+ color: #f44336;
+ cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+ .cancelbtn, .signupbtn {
+  width: 100px;
+ }
+}
+
+h3 {
+float: left;
+}
+
+h1 {text-align: center;}
+
+h2 {text-align: center;}
+
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+ width: 100%;
+}
+
+@media only screen and (min-width: 600px)
+{
+ /* For tablets: */
+ .col-s-1 {width: 8.33%;}
+ .col-s-2 {width: 16.66%;}
+ .col-s-3 {width: 25%;}
+ .col-s-4 {width: 33.33%;}
+ .col-s-5 {width: 41.66%;}
+ .col-s-6 {width: 50%;}
+ .col-s-7 {width: 58.33%;}
+ .col-s-8 {width: 66.66%;}
+ .col-s-9 {width: 75%;}
+ .col-s-10 {width: 83.33%;}
+ .col-s-11 {width: 91.66%;}
+ .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px)
+{
+ /* For desktop: */
+ .col-s-1 {width: 8.33%;}
+ .col-s-2 {width: 16.66%;}
+ .col-s-3 {width: 25%;}
+ .col-s-4 {width: 33.33%;}
+ .col-s-5 {width: 41.66%;}
+ .col-s-6 {width: 50%;}
+ .col-s-7 {width: 58.33%;}
+ .col-s-8 {width: 66.66%;}
+ .col-s-9 {width: 75%;}
+ .col-s-10 {width: 83.33%;}
+ .col-s-11 {width: 91.66%;}
+ .col-s-12 {width: 100%;}
+}
+
+body {
+ background-color: #DFCAB0;
+}
